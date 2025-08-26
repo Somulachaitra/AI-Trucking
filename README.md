@@ -118,13 +118,10 @@ We measure performance using:
 Hi 👋, I’m **Chaitra Somula**, a **2nd-year B.Tech student** passionate about **AI and Systems Engineering**.
 This project is a step towards applying classroom learning to **real-world logistics challenges**.
 
-📧 Contact: \[[your-email@example.com](mailto:your-email@example.com)]
+📧 Contact: \[[schaitra3894@gmail.com](mailto:schaitra3894@gmail.com)]
 🔗 GitHub: [Somulachaitra](https://github.com/Somulachaitra)
 
 ---
 
 ⭐ If you liked this project, don’t forget to **star the repo**!
 
----
-
-👉 Do you want me to also add **badges** (like Python version, license, stars, etc.) to make it look even more professional?
