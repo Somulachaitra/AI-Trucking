@@ -29,7 +29,7 @@ This project was built as part of my **B.Tech (2nd Year)** journey, combining my
 
 Here’s how the system works:
 
-![System Architecture](design/system-architecture.png)
+![System Architecture](design/system-diagram.png)
 
 * **Data Layer** → Stores trip & fuel data.
 * **AI Engine** → Runs optimization and predictions.
