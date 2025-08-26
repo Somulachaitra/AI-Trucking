@@ -4,7 +4,7 @@
 
 *Smart Fleet Optimization Using AI*
 
-![Banner](docs/system-diagram.png)
+![Banner](design/system-diagram.png)
 
 ## 📌 Overview
 
