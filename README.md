@@ -1,8 +1,4 @@
-Got it 🚀 You want a **world-class README** for your project (*AI-Trucking*) that looks professional but still feels like it’s written by a **second-year B.Tech student** — clear, simple, and impressive. I’ll create one for you with all the right sections (overview, features, architecture, setup, etc.) while keeping it student-friendly yet polished.
 
-Here’s a draft you can directly use in your repo 👇
-
----
 
 # 🚚 AI-Trucking
 
