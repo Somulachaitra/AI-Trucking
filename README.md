@@ -1,58 +1,31 @@
-
-
-# 🚚 AI-Trucking
-
-*Smart Fleet Optimization Using AI*
-
-![Banner](design/system-diagram.png)
-
-## 📌 Overview
-
-AI-Trucking is a project that explores how **Artificial Intelligence (AI)** can improve the efficiency of trucking and logistics.
-The goal is to **reduce costs, optimize routes, and improve fuel efficiency** while making transportation smarter and more sustainable.
-
-This project was built as part of my **B.Tech (2nd Year)** journey, combining my learnings in **AI, system design, and software engineering practices**.
+# AI-Trucking 🚛🛰️  
+*A satellite-supervised, AI-assisted trucking system (digital prototype)*
 
 ---
 
-## ✨ Features
-
-* 📍 **Route Optimization** – Suggests the best routes using AI.
-* ⛽ **Fuel Efficiency Insights** – Tracks consumption and gives suggestions to save fuel.
-* 🛠️ **System Architecture** – Designed with modular components (data, AI models, visualization).
-* 📊 **Visualization** – Easy-to-read dashboards and evaluation metrics.
-* 📄 **Documentation** – Includes one-pager, system architecture diagrams, and usage guides.
+## 🌍 What it is
+AI-Trucking is a **satellite-supervised, AI-assisted trucking system** that keeps drivers out of danger by enabling:
+- **Remote monitoring** from a central control room  
+- **Risk-aware rerouting** using AI + satellite intel  
+- **Tele-operation fallback** during climate or security risks  
 
 ---
 
-## 🏗️ System Architecture
+## ❓ Why it matters
+Trucking is **dangerous in many regions** due to:
+- Extreme weather 🌪️  
+- Robbery and roadside attacks 🛑  
 
-Here’s how the system works:
-
-![System Architecture](design/system-diagram.png)
-
-* **Data Layer** → Stores trip & fuel data.
-* **AI Engine** → Runs optimization and predictions.
-* **Visualization** → Displays results in dashboards.
-* **User Interface** → Simple interface for interactions.
+Our prototype shows how **AI + satellite oversight** can keep supply chains moving **while protecting human lives**.  
 
 ---
 
-## 📂 Project Structure
-
-```
-AI-Trucking/
-│── docs/                   # Documentation
-│   ├── evaluation-fit.md
-│   ├── openai-usage.md
-│── design/                 # Design diagrams
-│   ├── system-architecture.md
-│   ├── one-pager.pdf
-│── README.md               # Project introduction
-```
+## 📂 What this repo contains
+- `design/` → system diagrams, dashboard mockups, and the one-pager  
+- `docs/` → evaluation notes and OpenAI API usage plan  
+- `README.md` → project overview (this file)
 
 ---
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -83,6 +56,50 @@ pip install -r requirements.txt
 python main.py
 ```
 
+
+---
+
+## 🧠 OpenAI API Usage
+We use OpenAI models as **decision support only** — never for direct actuation.
+
+### GPT (assistant)
+- **Input:** `{segment, weather, risk intel, vehicle health}`  
+- **Output (example):**
+```json
+{
+  "route": "Highway-47 → City Bypass → Safe Depot",
+  "avoid_segments": ["Highway-19 flood zone"],
+  "max_speed": 60,
+  "notes": "Storm risk near Segment-3, reroute advised"
+}
+
+---
+
+## 🏗️ System Architecture
+
+Here’s how the system works:
+
+![System Architecture](design/system-diagram.png)
+
+* **Data Layer** → Stores trip & fuel data.
+* **AI Engine** → Runs optimization and predictions.
+* **Visualization** → Displays results in dashboards.
+* **User Interface** → Simple interface for interactions.
+
+---
+
+## 📂 Project Structure
+
+```
+AI-Trucking/
+│── docs/                   # Documentation
+│   ├── evaluation-fit.md
+│   ├── openai-usage.md
+│── design/                 # Design diagrams
+│   ├── system-architecture.md
+│   ├── one-pager.pdf
+│── README.md               # Project introduction
+```
 ---
 
 ## 📊 Evaluation
