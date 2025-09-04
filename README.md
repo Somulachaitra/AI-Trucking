@@ -72,8 +72,7 @@ We use OpenAI models as **decision support only** — never for direct actuation
   "max_speed": 60,
   "notes": "Storm risk near Segment-3, reroute advised"
 }
-
----
+```
 
 ## 🏗️ System Architecture
 
