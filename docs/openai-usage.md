@@ -21,7 +21,7 @@ This document explains how **GPT** and **Whisper** are integrated into the AI-Tr
 }
 ```
 ### Example Output
-```
+```json
 {
   "route": "Highway-47 → City Bypass → Safe Depot",
   "avoid_segments": ["Highway-19 flood zone"],
@@ -32,12 +32,43 @@ This document explains how **GPT** and **Whisper** are integrated into the AI-Tr
 ## 🎙️ Whisper (Voice)
 
 **Purpose:** Enables hands-free emergency commands in the control room.  
-**Input:** Short operator phrases (e.g., “Emergency stop”, “Resume autonomy”).
+**Input:** Short operator phrases(e.g., “Emergency stop”, “Resume autonomy”).
+
 **Output:** Command intent mapping.
 
 
 ## Example Input (spoken)
-```
+``` arduino
 "Emergency stop"
 ```
+## Example Output
+``` json
+{
+  "command": "STOP"
+}
+```
+## Another Example Input (spoken)
+``` arduino
+"Resume autonomy"
+
+```
+## Example Output
+``` json
+{
+  "command": "RESUME_AUTONOMY"
+}
+```
+---
+## 🔐 Safety Note
+
+* All AI outputs are filtered + validated before being shown to operators.
+* Operator must approve any reroute or action.
+* AI is an advisor, not a driver.
+
+## 📌 Summary
+
+* GPT: Generates JSON routing plans → operator decides.
+* Whisper: Maps voice commands → operator confirms.
+* Operator: Always in control.
+
 
